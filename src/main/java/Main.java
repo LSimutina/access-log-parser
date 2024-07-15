@@ -33,20 +33,14 @@ public class Main {
 
     //Задание 8
     public static boolean isDivisor(int a, int b) {
-        if (a < b) {
-            return b % a == 0;
-        } else {
-            return a % b == 0;
-        }
+        if (a < b) return b % a == 0;
+        return a % b == 0;
     }
 
     //Задание 7
     public static boolean isInRange(int a, int b, int num) {
-        if (a < b) {
-            return (num >= a) && (num <= b);
-        } else {
-            return (num >= b) && (num <= a);
-        }
+        if (a < b) return (num >= a) && (num <= b);
+        return (num >= b) && (num <= a);
     }
 
     //Задание 6
