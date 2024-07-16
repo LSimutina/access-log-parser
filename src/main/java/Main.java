@@ -19,6 +19,5 @@ public class Main {
 
         double division = (double) firstNumber / secondNumber;
         System.out.println("Частное чисел: " + division);
-
     }
 }
