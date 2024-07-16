@@ -1,5 +1,23 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Введите первое число: ");
+        int firstNumber = new Scanner(System.in).nextInt();
+
+        System.out.println("Введите второе число: ");
+        int secondNumber = new Scanner(System.in).nextInt();
+
+        int amount = firstNumber + secondNumber;
+        System.out.println("Сумма: " + amount);
+
+        int difference = firstNumber - secondNumber;
+        System.out.println("Разность: " + difference);
+
+        int multiplying = firstNumber * secondNumber;
+        System.out.println("Произведение чисел: " + multiplying);
+
+        double division = (double) firstNumber / secondNumber;
+        System.out.println("Частное чисел: " + division);
+          
         //Задания из блока 4.Основы Java.  Условия
 
 //        System.out.println(Condition.abs(-4)); //Задание 1
@@ -11,7 +29,7 @@ public class Main {
 //        System.out.println(Condition.sum2(9,12)); //Задание 7
 //        System.out.println(Condition.is35(20)); //Задание 8
 //        System.out.println(Condition.magic6(-2,8)); //Задание 9
-        System.out.println(Condition.age(212)); //Задание 10
+//        System.out.println(Condition.age(212)); //Задание 10
 //        System.out.println(Condition.day(8)); //Задание 11
 //        Condition.printDays("Пятница"); //Задание 12
 
@@ -37,6 +55,5 @@ public class Main {
 //        System.out.println(result);
 //        result = ClassAndMethods.lastNumSum(result, 1);
 //        System.out.println(result);
-
     }
 }
