@@ -1,7 +1,20 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Задания из блока 4.Основы Java.  Условия
+//        Задания из блока 5.Основы Java. Циклы
+/*
+        System.out.println(ArraysAndСycle.listNums(5)); // Задание 1
+        System.out.println(ArraysAndСycle.reverseListNums(5)); // Задание 2
+        System.out.println(ArraysAndСycle.chet(9)); // Задание 3
+        System.out.println(ArraysAndСycle.pow(2,5)); // Задание 4
+        System.out.println(ArraysAndСycle.numLen(12562)); // Задание 5
+        System.out.println(ArraysAndСycle.equalNum(121)); // Задание 6
+        ArraysAndСycle.square(3); // Задание 7
+        ArraysAndСycle.leftTriangle(3); // Задание 8
+        ArraysAndСycle.rightTriangle(3); // Задание 9
+        ArraysAndСycle.guessGame(); // Задание 10
+*/
+//        Задания из блока 4.Основы Java. Условия
 /*
         System.out.println(Condition.abs(-4)); //Задание 1
         System.out.println(Condition.safeDiv(4,6)); //Задание 2
@@ -16,7 +29,7 @@ public class Main {
         System.out.println(Condition.day(8)); //Задание 11
         Condition.printDays("Пятница"); //Задание 12
 */
-        //Задания из блока 4.Основы Java. Классы и методы
+//        Задания из блока 4.Основы Java. Классы и методы
 /*
         String res = String.format("%.3f", ClassAndMethods.fraction(5.3)); //Задание 1
         System.out.println(res); //Задание 1
