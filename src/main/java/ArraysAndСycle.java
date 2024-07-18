@@ -39,10 +39,10 @@ public class ArraysAndСycle {
     //Задание 5
     public static int numLen(long x) {
         int count = 0;
-        while (x != 0) {
+        do {
             count++;
             x /= 10;
-        }
+        } while (x != 0);
         return count;
     }
 
@@ -53,7 +53,8 @@ public class ArraysAndСycle {
             if (x % 10 != y) {
                 return false;
             }
-        } return true;
+        }
+        return true;
     }
 
     //Задание 7

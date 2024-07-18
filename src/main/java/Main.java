@@ -1,5 +1,27 @@
+import java.io.File;
+import java.util.Scanner;
+
+import static java.lang.System.out;
+
 public class Main {
     public static void main(String[] args) {
+        //Курсовой проект. Циклы
+
+        int count = 1;
+        do {
+            String path = new Scanner(System.in).nextLine();
+            File file = new File(path);
+            boolean fileExists = file.exists();
+            boolean isDirectory = file.isDirectory();
+
+            if ((!fileExists) || (isDirectory)) {
+                System.out.println("Путь указан  не верно");
+                continue;
+            }
+            System.out.println("Путь указан  Верно");
+            System.out.println("Это файл номер: " + count);
+            count++;
+        } while (true);
 
 //        Задания из блока 5.Основы Java. Циклы
 /*
@@ -7,7 +29,7 @@ public class Main {
         System.out.println(ArraysAndСycle.reverseListNums(5)); // Задание 2
         System.out.println(ArraysAndСycle.chet(9)); // Задание 3
         System.out.println(ArraysAndСycle.pow(2,5)); // Задание 4
-        System.out.println(ArraysAndСycle.numLen(12562)); // Задание 5
+        System.out.println(ArraysAndСycle.numLen(0)); // Задание 5
         System.out.println(ArraysAndСycle.equalNum(121)); // Задание 6
         ArraysAndСycle.square(3); // Задание 7
         ArraysAndСycle.leftTriangle(3); // Задание 8
