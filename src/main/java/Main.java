@@ -1,12 +1,44 @@
 import java.io.File;
+import java.util.Arrays;
 import java.util.Scanner;
 
-import static java.lang.System.out;
+//import static java.lang.System.out;
 
 public class Main {
     public static void main(String[] args) {
-        //Курсовой проект. Циклы
 
+//        Задания из блока 5.Основы Java. Массивы
+/*
+        int[] arr = {1, 2, 3, 4, 2, 2, 5};
+        System.out.println(ArraysAndСycle.findFirst(arr, 2)); // Задание 1
+        System.out.println(ArraysAndСycle.findLast(arr, 2)); // Задание 2
+
+        int[] arr1 = {1, -2, -7, 4, 2, 2, 5};
+        System.out.println(ArraysAndСycle.maxAbs(arr1)); // Задание 3
+        System.out.println(ArraysAndСycle.countPositive(arr1)); // Задание 4
+
+        int[] arr2 = {1, -2, -7, 4, 2, 2, 5};
+        int[] arr3 = {1, -2, -7, 4, -7, -2, 1};
+        System.out.println(ArraysAndСycle.palindrom(arr2)); // Задание 5
+
+        int[] arr4 = {1, 2, 3, 4, 5};
+        ArraysAndСycle.reverse(arr4);
+        System.out.println(Arrays.toString(arr4)); // Задание 6
+        System.out.println(Arrays.toString(ArraysAndСycle.reverseBack(arr4))); // Задание 7
+
+        int[] arr5 = {1, 2, 3};
+        int[] arr6 = {7, 8, 9};
+        System.out.println(Arrays.toString(ArraysAndСycle.concat(arr5, arr6))); // Задание 8
+        int[] arr7 = {1, 2, 3, 8, 2, 2, 9};
+        System.out.println(Arrays.toString(ArraysAndСycle.findAll(arr7, 3))); // Задание 9
+        int[] arr8 = {1, 2, -3, 4, -2, 2, -5};
+        System.out.println(Arrays.toString(ArraysAndСycle.deleteNegative(arr8))); // Задание 10
+        System.out.println(Arrays.toString(ArraysAndСycle.add(arr4,9,3))); // Задание 11
+        int[] ins = {7, 8, 9};
+        System.out.println(Arrays.toString(ArraysAndСycle.add(arr4, ins, 3))); // Задание 12
+*/
+//        5. Курсовой проект. Циклы
+/*
         int count = 1;
         do {
             String path = new Scanner(System.in).nextLine();
@@ -22,7 +54,7 @@ public class Main {
             System.out.println("Это файл номер: " + count);
             count++;
         } while (true);
-
+*/
 //        Задания из блока 5.Основы Java. Циклы
 /*
         System.out.println(ArraysAndСycle.listNums(5)); // Задание 1
