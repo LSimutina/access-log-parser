@@ -1,4 +1,7 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -40,8 +43,9 @@ public class Main {
 //        5. Курсовой проект. Циклы
 /*
         int count = 1;
+        String path;
         do {
-            String path = new Scanner(System.in).nextLine();
+            path = new Scanner(System.in).nextLine();
             File file = new File(path);
             boolean fileExists = file.exists();
             boolean isDirectory = file.isDirectory();
