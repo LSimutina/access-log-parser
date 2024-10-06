@@ -10,7 +10,7 @@ public class Main {
 //        Обработка исключений. Задание 1
         System.out.println("Введите путь до файла и нажмите <Enter>: ");
         String path = new Scanner(System.in).nextLine();
-        //путь
+        //путь C:\Users\LSimutina\Desktop\For_Work\Avto_QA\AccessLogParser\access.log
         File file = new File(path);
         boolean fileExists = file.exists();
         boolean isDirectory = file.isDirectory();
@@ -50,10 +50,10 @@ public class Main {
                 } catch (RuntimeException r) {
                     System.out.println("Строка должна быть не больше 1024 символов");
                 }
-                System.out.println("Общее количество строк в файле: " + count);
-                System.out.println("Самая длинная строка в файле: " + lengthMax);
-                System.out.println("Самая короткая строка в файле: " + lengthMin);
             }
+            System.out.println("Общее количество строк в файле: " + count);
+            System.out.println("Самая длинная строка в файле: " + lengthMax);
+            System.out.println("Самая короткая строка в файле: " + lengthMin);
         }
     }
 }
